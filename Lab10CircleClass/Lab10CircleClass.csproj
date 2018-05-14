@@ -44,7 +44,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Circle.cs" />
+    <Compile Include="..\..\..\..\Desktop\Circle.cs">
+      <Link>Circle.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -7,41 +7,45 @@ using System.Threading.Tasks;
 
 namespace Lab10CircleClass
 {
-    class Program
+    class Program 
     {
+        private static string input2;
+
         public static bool True { get; private set; }
 
         static void Main(string[] args)
         {
             do
             {
-                float Value;
-                string Answer;
-
-                Console.Write($"enter the {radius}:  ");
-                Value = (Convert.ToInt32(Console.ReadLine()));
-                int int.MaxValue = Convert.ToInt32(Value);
-                //bool ValidRadius = Regex.IsMatch(Value, "\\d{1,5000}.\\d{1,5000}");
-                //Console.WriteLine(ValidRadius);
-
-                if ()
+                double radius;
+                Console.WriteLine("please enter a radius: ");
+                string input = (Console.ReadLine());
+                bool true1 = double.TryParse(input, out radius);
+                while (!true1) //while loop to validate input was a number
                 {
-                    //call class
-
+                    Console.WriteLine("Invalid input, try again.");
+                    Console.WriteLine("please enter a radius: ");
+                    input = Console.ReadLine();
+                    true1 = double.TryParse(input, out radius);
                 }
-                else
+                   //create circle object 
+                //convert input to double
+                radius = Convert.ToDouble(input);
+                Circle circle1 = new Circle(input);
                 {
-                    Console.WriteLine("That was not a valid entry");
+                    //calculate area and circumference of circle
+                    //Console.WriteLine($"The area of the circle is{circle1.CalculateFormattedArea}");
+                    Console.WriteLine($"The circumference of the circle is {circle1.Radius}");
+
+                    Console.WriteLine("would you like to continue? y/n");
+                    input2 = Console.ReadLine().ToUpper();
                 }
+            } while (input2 == "y");
 
-                //prompt user to continue
-                Console.WriteLine("Would you like to continue? (Y/N)");
-                Answer = (Console.ReadLine());
 
-                string Answer;
-                while (Answer == "Y") ;
-            }
+        }
+            
         }
         
-    }
+    
 }
