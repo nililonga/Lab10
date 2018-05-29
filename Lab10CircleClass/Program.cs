@@ -31,11 +31,17 @@ namespace Lab10CircleClass
                    //create circle object 
                 //convert input to double
                 radius = Convert.ToDouble(input);
-                Circle circle1 = new Circle(input);
+                NewCircle circle1 = new NewCircle(radius);
+                NewCircle circle2 = new NewCircle(radius);
+                
+
+
                 {
                     //calculate area and circumference of circle
                     //Console.WriteLine($"The area of the circle is{circle1.CalculateFormattedArea}");
-                    Console.WriteLine($"The circumference of the circle is {circle1.Radius}");
+                    Console.WriteLine($"The radius of the circle is {circle1.Radius}");
+                    Console.WriteLine($"The circumference of the circle is {circle1.CalculateFormattedCircumference()}");
+                    Console.WriteLine($"The area of the circle is {circle2.CalculateFormattedArea()}");
 
                     Console.WriteLine("would you like to continue? y/n");
                     input2 = Console.ReadLine().ToUpper();

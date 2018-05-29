@@ -1,7 +1,7 @@
-C:\Users\noeil\source\repos\Lab10CircleClass\Lab10CircleClass\obj\Debug\Lab10CircleClass.csprojResolveAssemblyReference.cache
-C:\Users\noeil\source\repos\Lab10CircleClass\Lab10CircleClass\obj\Debug\Lab10CircleClass.csproj.CoreCompileInputs.cache
 C:\Users\noeil\source\repos\Lab10CircleClass\Lab10CircleClass\bin\Debug\Lab10CircleClass.exe.config
 C:\Users\noeil\source\repos\Lab10CircleClass\Lab10CircleClass\bin\Debug\Lab10CircleClass.exe
 C:\Users\noeil\source\repos\Lab10CircleClass\Lab10CircleClass\bin\Debug\Lab10CircleClass.pdb
+C:\Users\noeil\source\repos\Lab10CircleClass\Lab10CircleClass\obj\Debug\Lab10CircleClass.csprojResolveAssemblyReference.cache
+C:\Users\noeil\source\repos\Lab10CircleClass\Lab10CircleClass\obj\Debug\Lab10CircleClass.csproj.CoreCompileInputs.cache
 C:\Users\noeil\source\repos\Lab10CircleClass\Lab10CircleClass\obj\Debug\Lab10CircleClass.exe
 C:\Users\noeil\source\repos\Lab10CircleClass\Lab10CircleClass\obj\Debug\Lab10CircleClass.pdb
