@@ -28,14 +28,11 @@ namespace Lab10CircleClass
                     input = Console.ReadLine();
                     true1 = double.TryParse(input, out radius);
                 }
-                   //create circle object 
+                //create circle object 
                 //convert input to double
                 radius = Convert.ToDouble(input);
                 NewCircle circle1 = new NewCircle(radius);
                 NewCircle circle2 = new NewCircle(radius);
-                
-
-
                 {
                     //calculate area and circumference of circle
                     //Console.WriteLine($"The area of the circle is{circle1.CalculateFormattedArea}");
@@ -47,6 +44,7 @@ namespace Lab10CircleClass
                     input2 = Console.ReadLine().ToUpper();
                 }
             } while (input2 == "y");
+
 
 
         }
